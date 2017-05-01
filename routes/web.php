@@ -17,4 +17,16 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
+
+Route::get('/admin', 'Admin@index')->middleware('auth');
+
+Route::get('/cars', 'ProductsController@cars');
+
+Route::get('/trucks', 'ProductsController@trucks');
+
+Route::get('/suv', 'ProductsController@suv');
+
+Route::get('/compacts', 'ProductsController@compacts');
+
+Route::get('/electric', 'ProductsController@electric');
