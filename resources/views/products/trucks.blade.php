@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home</title>
+        <title>Trucks</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- themeStyles -->
+        <!-- Styles -->
         <style>
             html, body {
                 background-color: #2b3e50;
@@ -40,6 +40,11 @@
                 right: 10px;
                 top: 18px;
             }
+            .top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
 
             .content {
                 text-align: center;
@@ -63,11 +68,17 @@
                 margin-bottom: 30px;
             }
         </style>
-        <link rel="stylesheet" href="css/theme/dark-theme.css" media="screen" title="no title">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
+                <div class="top-left links">
+                    <a href="/cars">Cars</a>
+                    <a href="/trucks">Trucks</a>
+                    <a href="/suv">SUV</a>
+                    <a href="/compacts">Compacts</a>
+                    <a href="/electric">Electric/Hybrid</a>
+                </div>
                 <div class="top-right links">
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
@@ -78,18 +89,13 @@
                 </div>
             @endif
 
-            <div class="content" id="app">
-                <jumbotron></jumbotron>
+            <div class="content">
                 <div class="title m-b-md">
                     Bob's Used Cars
                 </div>
-                <div class="links">
-                    <a href="/cars">Cars</a>
-                    <a href="/trucks">Trucks</a>
-                    <a href="/suv">SUV</a>
-                    <a href="/compacts">Compacts</a>
-                    <a href="/electric">Electric/Hybrid</a>
-                </div>
+                <h3 class="title">
+                  Trucks
+                </h3>
             </div>
         </div>
     </body>
