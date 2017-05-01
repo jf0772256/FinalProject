@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
+        <!-- themeStyles -->
         <style>
             html, body {
                 background-color: #fff;
@@ -63,7 +63,7 @@
                 margin-bottom: 30px;
             }
         </style>
-        <link rel="stylesheet" href="css/dark-theme.css" media="screen" title="no title">
+        <link rel="stylesheet" href="css/theme/dark-theme.css" media="screen" title="no title">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
