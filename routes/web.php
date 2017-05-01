@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'UserController@index');
+Route::get('/user', 'UserController@index')->middleware('auth');
 
 Route::get('/admin', 'AdminController@index')->middleware('auth');
 
