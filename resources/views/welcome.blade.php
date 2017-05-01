@@ -66,8 +66,18 @@
         <link rel="stylesheet" href="css/theme/dark-theme.css" media="screen" title="no title">
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
+
             @if (Route::has('login'))
+            <div class="top-left links">
+              <a href="/">Home</a>
+                <a href="/cars">Cars</a>
+                <a href="/trucks">Trucks</a>
+                <a href="/suv">SUV</a>
+                <a href="/compacts">Compacts</a>
+                <a href="/electric">Electric/Hybrid</a>
+            </div>
                 <div class="top-right links">
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
