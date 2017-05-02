@@ -85,7 +85,7 @@
             echo "<link rel='stylesheet' href='css/theme/light-theme.css' media='screen' title='Light Theme'>";
           }
           else {
-            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='no theme selected'>";
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
           }
         ?>
     </head>
