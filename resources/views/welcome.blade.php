@@ -2,7 +2,11 @@
   if (isset($_POST['themeSelect']) && $_POST['themeSelect'] != "") {
     $value = $_POST['themeSelect'];
     session()->put('ThemeSelected',$value);
-  }else{
+  }
+  else if (session()->get('ThemeSelected') != false) {
+    //try this out shouldnt need to do anything...
+  }
+  else{
     $value = false;
     session()->put('ThemeSelected',$value);
   }
@@ -73,7 +77,7 @@
                 margin-bottom: 30px;
             }
         </style>
-        
+
         <?php
           if (session('ThemeSelected') == 0) {
             echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
