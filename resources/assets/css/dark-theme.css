@@ -33,6 +33,10 @@ html, body {
             top: 18px;
         }
 
+        .nav-link-padding{
+          left: 5em;
+        }
+
         .content {
             text-align: center;
         }

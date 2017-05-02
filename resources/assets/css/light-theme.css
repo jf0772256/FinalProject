@@ -21,6 +21,16 @@ html, body {
     position: relative;
 }
 
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.nav-link-padding{
+  left: 5em;
+}
+
 .top-right {
     position: absolute;
     right: 10px;
