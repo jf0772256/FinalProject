@@ -69,6 +69,20 @@
                 margin-bottom: 30px;
             }
         </style>
+        <?php
+          if (session('ThemeSelected') == 0) {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
+          }
+          else if (session('ThemeSelected') == 1) {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Dark Theme'>";
+          }
+          else if (session('ThemeSelected') == 2){
+            echo "<link rel='stylesheet' href='css/theme/light-theme.css' media='screen' title='Light Theme'>";
+          }
+          else {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='no theme selected'>";
+          }
+        ?>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
