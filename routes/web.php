@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/', function (){
+  return view('welcome');
+});
+
 Auth::routes();
 
 Route::get('/user', 'UserController@index')->middleware('auth');

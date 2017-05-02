@@ -6,6 +6,7 @@
     <a href="/suv">SUV</a>
     <a href="/compacts">Compacts</a>
     <a href="/electric">Electric/Hybrid</a>
+    @include('partial.theme')
 </div>
     <div class="top-right links">
         @if (Auth::check())

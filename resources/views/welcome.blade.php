@@ -1,3 +1,13 @@
+<?php
+  if (isset($_POST['themeSelect']) && $_POST['themeSelect'] != "") {
+    $value = $_POST['themeSelect'];
+    session()->put('ThemeSelected',$value);
+  }else{
+    $value = false;
+    session()->put('ThemeSelected',$value);
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -63,7 +73,21 @@
                 margin-bottom: 30px;
             }
         </style>
-        <link rel="stylesheet" href="css/theme/dark-theme.css" media="screen" title="no title">
+        
+        <?php
+          if (session('ThemeSelected') == 0) {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
+          }
+          else if (session('ThemeSelected') == 1) {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Dark Theme'>";
+          }
+          else if (session('ThemeSelected') == 2){
+            echo "<link rel='stylesheet' href='css/theme/light-theme.css' media='screen' title='Light Theme'>";
+          }
+          else {
+            echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='no theme selected'>";
+          }
+        ?>
     </head>
     <body>
 
