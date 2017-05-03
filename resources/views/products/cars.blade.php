@@ -91,9 +91,18 @@
                 <div class="title m-b-md">
                     Bob's Used Cars
                 </div>
-                <h3 class="title">
+                <h2 class="title">
                   Cars
+                </h2>
+
+                <h3>
+                    1992 Ford Escort
                 </h3>
+                <p>
+                    
+                </p>
+
+                <img src="\public\images\Cars\1992fordescort.jpg\" alt="1992 Ford Escort">
 
             </div>
         </div>
