@@ -68,6 +68,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
         </style>
         <?php
           if (session('ThemeSelected') == 0) {
@@ -95,15 +96,19 @@
                   Cars
                 </h2>
 
-                <h3>
-                    1992 Ford Escort
-                </h3>
-                <p>
-                    
-                </p>
 
-                <img src="\public\images\Cars\1992fordescort.jpg\" alt="1992 Ford Escort">
-
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Cars/1992fordescort.jpg" alt="1992 Ford Escort">
+                      <div class="caption">
+                        <h3>1992 Ford Escort</h3>
+                        <p>This is a placeholder description</p>
+                        <p><a href="#" class="btn btn-primary" role="buton">Add to cart</a> <a href="#" class="btn btn-default" role="button">Test Drive this car</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </body>
