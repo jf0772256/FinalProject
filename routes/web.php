@@ -21,9 +21,16 @@ Route::post('/', function (){
 
 Auth::routes();
 
-Route::get('/user', 'UserController@index')->middleware('auth');
+// Deturmine log in path user will get when logged in//
 
-Route::get('/admin', 'AdminController@index')->middleware('auth');
+Route::get('/admin', 'AdminController@logincheck')->middleware('auth');
+Route::get('/administration', 'AdminController@Dashboard')->middleware('auth')->name('admin');
+
+Route::get('/employee', 'AdminController@logincheck')->middleware('auth');
+Route::get('/employee/profile', 'EmployeeController@Dashboard')->middleware('auth')->name('employee');
+
+Route::get('/user', 'AdminController@logincheck')->middleware('auth');
+Route::get('/user/profile','UserController@Index')->middleware('auth')->name('user');
 
 Route::get('/cars', 'ProductsController@cars');
 
