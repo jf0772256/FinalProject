@@ -50,19 +50,27 @@ class DatabaseSeeder extends Seeder
       DB::table('categories')->insert(
       array(
           'categoryType' => 'cars'
-        ),
+        )
+      );
+      DB::table('categories')->insert(
         array(
-            'categoryType' => 'compact'
-          ),
-          array(
-              'categoryType' => 'electric'
-            ),
-            array(
-                'categoryType' => 'suv'
-              ),
-              array(
-                  'categoryType' => 'truck'
-                )
+          'categoryType' => 'compacts'
+        )
+      );
+      DB::table('categories')->insert(
+        array(
+          'categoryType' => 'electric'
+        )
+      );
+      DB::table('categories')->insert(
+        array(
+          'categoryType' => 'suvs'
+        )
+      );
+      DB::table('categories')->insert(
+        array(
+          'categoryType' => 'trucks'
+        )
       );
     }
 }
