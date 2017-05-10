@@ -47,5 +47,22 @@ class DatabaseSeeder extends Seeder
                           'roleID'  => $admin_role
                       )
                 );
+      DB::table('categories')->insert(
+      array(
+          'categoryType' => 'cars'
+        ),
+        array(
+            'categoryType' => 'compact'
+          ),
+          array(
+              'categoryType' => 'electric'
+            ),
+            array(
+                'categoryType' => 'suv'
+              ),
+              array(
+                  'categoryType' => 'truck'
+                )
+      );
     }
 }
