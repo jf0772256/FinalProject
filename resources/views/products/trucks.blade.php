@@ -96,9 +96,9 @@
                 <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="/images/Trucks/1942dodgemilitary1-4ton.jpg" alt="1942 Dodge Military- 4 Ton">
+                        <img src="/images/Trucks/1942dodgemilitary1-4ton.jpg" alt="1942 Dodge Military 4 Ton">
                       <div class="caption">
-                        <h3>1942 Dodge Military- 4 Ton</h3>
+                        <h3>1942 Dodge Military - 4 Ton</h3>
                         <p>This is a placeholder description</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
@@ -107,11 +107,11 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
+
+
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="/images/Trucks/1959bluechevytruck.jpg" alt="1959 Chevy Truck">
+                        <img src="/images/Trucks/1959bluechevyputruck.jpg" alt="1959 Chevy Truck">
                       <div class="caption">
                         <h3>1959 Chevy Truck</h3>
                         <p>This is a placeholder description</p>
@@ -122,8 +122,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
+
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1995fordranger.jpg" alt="1995 Ford Ranger">
@@ -138,7 +137,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1999fordf250diesel.jpg" alt="1999 Ford F250">
@@ -152,8 +150,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2003toyotatundra.jpg" alt="2003 Toyota Tundra">
@@ -167,8 +163,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2012ford350diesel.jpg" alt="2012 Ford F350">
@@ -182,8 +176,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/whitepickupwlumberrack.jpg" alt="white pickup with lumber rack">
