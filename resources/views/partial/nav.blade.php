@@ -34,7 +34,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
 
         @if (Auth::check())
-            <li ><a href="{{ url('/user') }}">Home</a> </li>
+            <li ><a href="{{ url('/user') }}">Dashboard</a> </li>
         @else
             <li><a href="{{ url('/login') }}">Login</a> </li>
             <li> <a href="{{ url('/register') }}">Register</a> </li>
