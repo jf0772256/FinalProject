@@ -97,7 +97,6 @@
                 </h2>
 
 
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Cars/1992fordescort.jpg" alt="1992 Ford Escort">
@@ -108,8 +107,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Cars/1995mazdamiata.jpg" alt="1995 mazda miata">
@@ -123,8 +120,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Cars/2005toyotacorolla.jpg" alt="2005 Toyota Carolla">
@@ -138,8 +133,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Cars/2006bmw3series.jpg" alt="2006 BMW 3 Series">
@@ -153,8 +146,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Cars/2010hondaaccord.jpg" alt="2010 honda accord">
@@ -168,8 +159,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
-            </div>
+              </div>
         </div>
     </body>
 </html>

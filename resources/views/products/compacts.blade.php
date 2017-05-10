@@ -90,15 +90,15 @@
                 <div class="title m-b-md">
                     Bob's Used Cars
                 </div>
-                <h3 class="jumbotron title">
+                <h3 class="title">
                   Compacts
                 </h3>
-                <div class="row">
+
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="/images/Compacts/2011fiat500.jpg" alt="2011 Fiat 500">
+                        <img src="/images/Compacts/2011nissanleaf.jpg" alt="2011 Nissan Leaf">
                       <div class="caption">
-                        <h3>2011 Fiat 500</h3>
+                        <h3>2011 Nissan Leaf</h3>
                         <p>This is a placeholder description</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
@@ -108,7 +108,6 @@
                     </div>
                   </div>
                 </div>
-            </div>
         </div>
     </body>
 </html>

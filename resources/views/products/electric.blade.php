@@ -93,7 +93,6 @@
                 <h3 class="title">
                   Electric
                 </h3>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Electric/2001smart.jpg" alt="2001 Smart Car">
@@ -109,6 +108,5 @@
                   </div>
                 </div>
             </div>
-        </div>
     </body>
 </html>

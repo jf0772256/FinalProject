@@ -94,7 +94,6 @@
                 <h3 class="title">
                   SUV
                 </h3>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/SUVs/2013fordexplorer.jpg" alt="2013 Ford Explorer">
@@ -108,8 +107,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/SUVs/2014jeepgcherokee.jpg" alt="2014 Jeep Grand Cherokee">
@@ -123,8 +120,6 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/SUVs/2006toyota4runner.jpg" alt="2006toyota4runner">
@@ -139,7 +134,6 @@
                     </div>
                   </div>
                 </div>
-            </div>
         </div>
     </body>
 </html>
