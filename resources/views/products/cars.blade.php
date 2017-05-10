@@ -109,6 +109,66 @@
                     </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Cars/1995mazdamiata.jpg" alt="1995 mazda miata">
+                      <div class="caption">
+                        <h3>1995 Mazda Miata</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Cars/2005toyotacorolla.jpg" alt="2005 Toyota Carolla">
+                      <div class="caption">
+                        <h3>2005 Toyota Corolla</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Cars/2006bmw3series.jpg" alt="2006 BMW 3 Series">
+                      <div class="caption">
+                        <h3>2006 BMW 3 Series</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Cars/2010hondaaccord.jpg" alt="2010 honda accord">
+                      <div class="caption">
+                        <h3>2010 Honda Accord</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </body>

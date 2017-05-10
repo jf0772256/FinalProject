@@ -93,6 +93,36 @@
                 <h3 class="jumbotron title">
                   Compacts
                 </h3>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Compacts/2001smart.jpg" alt="2001 Smart Car">
+                      <div class="caption">
+                        <h3>2001 Smart Car</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Compacts/2011fiat500.jpg" alt="2011 Fiat 500">
+                      <div class="caption">
+                        <h3>2011 Fiat 500</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </body>
