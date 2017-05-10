@@ -94,6 +94,51 @@
                 <h3 class="title">
                   SUV
                 </h3>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/SUVs/2013fordexplorer.jpg" alt="2013 Ford Explorer">
+                      <div class="caption">
+                        <h3>2013 Ford Explorer</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/SUVs/2014jeepgcherokee.jpg" alt="2014 Jeep Grand Cherokee">
+                      <div class="caption">
+                        <h3>2014 Jeep Grand Cherokee</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/SUVs/2006toyota4runner.jpg" alt="2006toyota4runner">
+                      <div class="caption">
+                        <h3>2006 Toyota 4runner</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </body>

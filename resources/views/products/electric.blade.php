@@ -93,6 +93,21 @@
                 <h3 class="title">
                   Electric
                 </h3>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/images/Electric/2001smart.jpg" alt="2001 Smart Car">
+                      <div class="caption">
+                        <h3>2001 Smart Car</h3>
+                        <p>This is a placeholder description</p>
+                        <p>
+                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </body>
