@@ -12,11 +12,11 @@ class AdminController extends Controller
     public function logincheck(){
       $id = auth()->id();
       $role = auth()->user($id)->roleID;
-      if ($role == 0) {
+      if ($role == 3) {
         return redirect()->route('user');
       }elseif ($role == 2) {
         return redirect()->route('employee');
-      }else{
+      }elseif ($role == 1){
         return redirect()->route('admin');
       }
     }
