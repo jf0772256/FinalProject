@@ -16,8 +16,8 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->string('inventoryid')->unique();
-            $table->string('make');
-            $table->string('model');
+            $table->integer('makeID');
+            $table->integer('modelID');
             $table->integer('year');
             $table->string('imageuri');
             $table->integer('categoryID');
