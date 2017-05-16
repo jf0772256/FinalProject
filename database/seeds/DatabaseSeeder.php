@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(roles::class);
         $this->call(users::class);
         $this->call(categories::class);
-        $this->call(makes::class);
+        $this->call(makers::class);
     }
 }
 
@@ -103,7 +103,7 @@ class categories extends Seeder
     }
 }
 
-class makes extends Seeder
+class makers extends Seeder
 {
     /**
      * Run the database seeds.
