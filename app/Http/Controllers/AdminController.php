@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Contollers\EmployeeController;
 use App\Http\Controllers\UserController;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
 {
@@ -26,17 +28,14 @@ class AdminController extends Controller
       return view('admin');
     }
 
-    public function addnew(array $data){
-      $jimmy = validator($data);
-      if ($jimmy) {
-        $jimmy2 = create($data);
-      }else {
-        echo "error with validation";
+    public function addnew(Request $request){
+      $newEmployee = $request->all();
+      $userIDs = $newEmployee['userslist'];
+      if ($userIDs == -1) {
+        //do nothing non valid user selected
+      }else{
+        $q = DB::table('users')->where('id',$userIDs)->update(['roleID' => 2]);
       }
-      if($jimmy2){
-        echo "success!";
-      }else {
-        echo "error creating user";
-      }
+      return redirect()->route('admin');
     }
 }

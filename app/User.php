@@ -31,15 +31,19 @@ class User extends Authenticatable
 
     public static function getAllUsers($sName){
       // like with categories, we are building a select box for users with role of 3
-      $iCnt = 0;
-      $data = DB::table('users')->select('name')->where('roleID',3)->get();
+      $data = DB::table('users')->select('name','id')->where('roleID',3)->get();
       echo "<div class='form-group'><select name='$sName'>";
       echo "<option value='-1'>Select A User</option>";
       foreach ($data as $value) {
         $item = $value->name;
+        $iCnt = $value->id;
         echo "<option value='$iCnt'>$item</option>";
         $iCnt++;
       }
       echo "</select></div>";
+    }
+
+    public function updateUserSelected(){
+      //
     }
 }
