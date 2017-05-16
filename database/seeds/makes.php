@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class makes_seeder extends Seeder
+class makes extends Seeder
 {
     /**
      * Run the database seeds.
