@@ -12,3 +12,6 @@ create database.sqlite in the database directory
 Open command processor, and run: php artisan key:generate ; followed by php artisan config:clear
 
 Resolved issues with key errors.
+
+
+*** Check issues for TODOs and what not ***
