@@ -81,6 +81,7 @@
             'csrfToken' => csrf_token(),
         ]) !!};
     </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
 <body>
     <div id="app">

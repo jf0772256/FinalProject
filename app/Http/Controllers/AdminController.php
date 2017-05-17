@@ -53,4 +53,8 @@ class AdminController extends Controller
       }
           return redirect()->route('admin');
     }
+
+    public function models($id){
+      return Model_Partial::whereMakeID($id)->get();
+    }
 }

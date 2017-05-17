@@ -17,9 +17,9 @@ class Products extends Model
     // ];
     // we are assuming that we will be using this section to build a selection
     //first function we will want to use is the static builders
-    public static function getAllMakes($sName){
+    public static function getAllMakes($sName, $id){
       $data = DB::table('makes')->select('make','id')->where('active',true)->get();
-      echo "<div class='form-group'><select name='$sName'>";
+      echo "<div class='form-group'><select name='$sName' id='$id'>";
       echo "<option value='-1'>Select A Make</option>";
       foreach ($data as $value) {
         $ids = $value->id;

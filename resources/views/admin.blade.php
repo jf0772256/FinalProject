@@ -33,10 +33,13 @@
                       {{ csrf_field() }}
                       @php
                         Categories::makeSelectorCat('categories');
-                        Products::getAllMakes('makes');
-                        Model_Partial::getAvailModels('models');
+                        Products::getAllMakes('makes','makesSelected');
                       @endphp
-                      {{--  --}}
+                      <label for="model">Select a Model:
+                        <select class="" name="model"  id="modelsavail">
+                          <option value=""></option>
+                        </select>
+                      </label>
                   </form>
                   <div class="collapse" id="addmodel">
                     <div class="well">
@@ -44,7 +47,7 @@
                           {{ csrf_field() }}
                           <input type="text" name="newModelName" value="">
                           @php
-                            Products::getAllMakes('nmMake');
+                            Products::getAllMakes('nmMake', 'addMaleModel');
                           @endphp
                           <input type="submit" name="subBtn1" class="btn btn-primary" value="Create New Model">
                       </form>
