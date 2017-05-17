@@ -38,7 +38,7 @@
                             {{ csrf_field() }}
                             <input type="text" name="newModel" value="">
                             @php
-                              getAllMakes("nmMake");
+                              Products::getAllMakes("nmMake");
                             @endphp
                             <input type="submit" name="" class="btn btn-primary" value="Create New Model">
                         </form>
