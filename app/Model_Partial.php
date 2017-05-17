@@ -16,10 +16,10 @@ class Model_Partial extends Model
         'model', 'makeAssoc',
     ];
     //populate models does require that there be a make to attach to...
-    public static function getAvailModels($sName, $makeSel){
+    public static function getAvailModels($sName, $makeSel = -1){
       $data = DB::table('models')->select('model','id')->where([['active','=',true],['makeAssoc','=',$makeSel]])->get();
       echo "<div class='form-group'><select name='$sName'>";
-      echo "<option value='-1'>Select A Make</option>";
+      echo "<option value='-1'>Select A Model</option>";
       foreach ($data as $value) {
         $ids = $value->id;
         $make = $value->make;

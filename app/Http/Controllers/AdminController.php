@@ -38,4 +38,19 @@ class AdminController extends Controller
       }
       return redirect()->route('admin');
     }
+
+    //do insert of new model and attach to a to the wonderful database
+    public function addnewmodel(Request $request){
+      $newModel = $request->all();
+      $nmAssoc = $newModel['nmMake'];
+      $nmModel = $newModel['newModelName'];
+      if ($nmAssoc == -1) {
+       //do nothing non valid user selected
+      }else{
+        if($nmAssoc > -1){
+         $q = DB::table('models')->insert(['model' => $nmModel, 'makeAssoc' => $nmAssoc]);
+        }
+      }
+          return redirect()->route('admin');
+    }
 }
