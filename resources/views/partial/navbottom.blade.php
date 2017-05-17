@@ -1,7 +1,7 @@
 
 
 @if (Route::has('login'))
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container-fluid">
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="container" >
@@ -24,6 +24,9 @@
           </ul>
         </div><!-- /.navbar-collapse -->
         @endif
+<p>
+  Bob's Used Cars &copy; 2017
+</p>
   </div>
 </nav>
       @endif

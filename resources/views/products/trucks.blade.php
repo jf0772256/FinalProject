@@ -84,17 +84,22 @@
         ?>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @include('partial.nav')
-            <div class="content">
-                <div class="title m-b-md">
-                    Bob's Used Cars
-                </div>
-                <h3 class="title">
-                  Trucks
-                </h3>
+      <div class="content">
+        <div class="jumbotron">
+          <div class="title ">
+              Bob's Used Cars
+          </div>
+          <h3 class="title">
+            Trucks
+          </h3>
+        </div>
+      </div>
+
+    <div class="flex-center position-ref full-height">
+      <div class="content">
+          @include('partial.nav')
                 <div class="row">
-                  <div class="col-sm-6 col-md-4">
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1942dodgemilitary1-4ton.jpg" alt="1942 Dodge Military 4 Ton">
                       <div class="caption">
@@ -108,8 +113,7 @@
                     </div>
                   </div>
 
-
-                  <div class="col-sm-6 col-md-4">
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1959bluechevyputruck.jpg" alt="1959 Chevy Truck">
                       <div class="caption">
@@ -123,7 +127,7 @@
                     </div>
                   </div>
 
-                  <div class="col-sm-6 col-md-4">
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1995fordranger.jpg" alt="1995 Ford Ranger">
                       <div class="caption">
@@ -137,7 +141,8 @@
                     </div>
                   </div>
                 </div>
-                  <div class="col-sm-6 col-md-4">
+
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1999fordf250diesel.jpg" alt="1999 Ford F250">
                       <div class="caption">
@@ -150,7 +155,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-4">
+
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2003toyotatundra.jpg" alt="2003 Toyota Tundra">
                       <div class="caption">
@@ -163,7 +169,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-4">
+
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2012ford350diesel.jpg" alt="2012 Ford F350">
                       <div class="caption">
@@ -176,7 +183,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-4">
+
+                  <div class="col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/whitepickupwlumberrack.jpg" alt="white pickup with lumber rack">
                       <div class="caption">
@@ -190,6 +198,10 @@
                     </div>
                   </div>
                 </div>
+<footer class="content">
+                  @include("partial.navbottom")
+</footer>
+              </div>
             </div>
         </div>
     </body>

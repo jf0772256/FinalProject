@@ -89,13 +89,14 @@
         <div class="flex-center position-ref full-height">
             @include('partial.nav')
             <div class="content">
-                <div class="title m-b-md">
+              <div class="jumbotron page-header">
+                <div class="title ">
                     Bob's Used Cars
                 </div>
                 <h2 class="title">
                   Cars
                 </h2>
-
+              </div>
 
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
