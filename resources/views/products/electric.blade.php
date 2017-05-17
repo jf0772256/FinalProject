@@ -13,7 +13,6 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #2b3e50;
                 color: #ebebeb;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -26,8 +25,7 @@
             }
 
             .flex-center {
-                align-items: center;
-                display: flex;
+
                 justify-content: center;
             }
 
@@ -84,15 +82,18 @@
         ?>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @include('partial.nav')
-            <div class="content">
-                <div class="title m-b-md">
-                    Bob's Used Cars
-                </div>
-                <h3 class="title">
-                  Electric
-                </h3>
+
+      <div class="content">
+        <div class="jumbotron page-header">
+          <div class="title ">
+              Bob's Used
+          </div>
+          <h2 class="title">
+            Electric
+          </h2>
+        </div>
+                <div class="flex-center position-ref full-height">
+                    @include('partial.nav')
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Electric/2001smart.jpg" alt="2001 Smart Car">

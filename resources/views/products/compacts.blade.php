@@ -83,16 +83,18 @@
         ?>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @include('partial.nav')
-            <div class="content">
-                <div class="title m-b-md">
-                    Bob's Used
-                </div>
-                <h3 class="title">
-                  Compacts
-                </h3>
 
+      <div class="content">
+        <div class="jumbotron page-header">
+          <div class="title ">
+              Bob's Used
+          </div>
+          <h2 class="title">
+            Compacts
+          </h2>
+        </div>
+                <div class="flex-center position-ref full-height">
+                    @include('partial.nav')
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Compacts/2011nissanleaf.jpg" alt="2011 Nissan Leaf">
