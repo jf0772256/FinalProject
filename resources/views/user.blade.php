@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body" style="color:#262626;">
+                <div class="panel-body" style="color:#839496;">
                     You are logged in!
                 </div>
             </div>
