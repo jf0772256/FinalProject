@@ -101,7 +101,7 @@
                         <img src="/images/SUVs/2013fordexplorer.jpg" alt="2013 Ford Explorer">
                       <div class="caption">
                         <h3>2013 Ford Explorer</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $32,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
@@ -114,7 +114,7 @@
                         <img src="/images/SUVs/2014jeepgcherokee.jpg" alt="2014 Jeep Grand Cherokee">
                       <div class="caption">
                         <h3>2014 Jeep Grand Cherokee</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $34,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
@@ -127,7 +127,7 @@
                         <img src="/images/SUVs/2006toyota4runner.jpg" alt="2006toyota4runner">
                       <div class="caption">
                         <h3>2006 Toyota 4runner</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $29,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>

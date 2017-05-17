@@ -100,7 +100,7 @@
                         <img src="/images/Compacts/2011nissanleaf.jpg" alt="2011 Nissan Leaf">
                       <div class="caption">
                         <h3>2011 Nissan Leaf</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $33,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>

@@ -99,7 +99,7 @@
                         <img src="/images/Electric/2001smart.jpg" alt="2001 Smart Car">
                       <div class="caption">
                         <h3>2001 Smart Car</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $17,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>

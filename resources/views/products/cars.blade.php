@@ -103,7 +103,7 @@
                         <img src="/images/Cars/1992fordescort.jpg" alt="1992 Ford Escort">
                       <div class="caption">
                         <h3>1992 Ford Escort</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $8,500 |</p>
                         <p><a href="#" class="btn btn-primary" role="buton">Add to cart</a> <a href="#" class="btn btn-default" role="button">Test Drive this car</a></p>
                       </div>
                     </div>
@@ -113,7 +113,7 @@
                         <img src="/images/Cars/1995mazdamiata.jpg" alt="1995 mazda miata">
                       <div class="caption">
                         <h3>1995 Mazda Miata</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $20,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
@@ -126,7 +126,7 @@
                         <img src="/images/Cars/2005toyotacorolla.jpg" alt="2005 Toyota Carolla">
                       <div class="caption">
                         <h3>2005 Toyota Corolla</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $15,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                            <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
@@ -139,7 +139,7 @@
                         <img src="/images/Cars/2006bmw3series.jpg" alt="2006 BMW 3 Series">
                       <div class="caption">
                         <h3>2006 BMW 3 Series</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $32,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                            <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
@@ -152,7 +152,7 @@
                         <img src="/images/Cars/2010hondaaccord.jpg" alt="2010 honda accord">
                       <div class="caption">
                         <h3>2010 Honda Accord</h3>
-                        <p>This is a placeholder description</p>
+                        <p>| $22,000 |</p>
                         <p>
                           <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
                            <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
