@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #2b3e50;
+
                 color: #ebebeb;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -26,8 +26,7 @@
             }
 
             .flex-center {
-                align-items: center;
-                display: flex;
+
                 justify-content: center;
             }
 
@@ -88,7 +87,7 @@
             @include('partial.nav')
             <div class="content">
                 <div class="title m-b-md">
-                    Bob's Used Cars
+                    Bob's Used
                 </div>
                 <h3 class="title">
                   Compacts

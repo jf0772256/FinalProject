@@ -14,7 +14,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         html, body {
-            background-color: #2b3e50;
+
             color: #ebebeb;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
@@ -27,9 +27,9 @@
         }
 
         .flex-center {
-            align-items: center;
+
             display: flex;
-            justify-content: center;
+          /justify-content: center;
         }
 
         .position-ref {
@@ -39,6 +39,11 @@
         .top-right {
             position: absolute;
             right: 10px;
+            top: 18px;
+        }
+        .top-left {
+            position: absolute;
+            left: 10px;
             top: 18px;
         }
 
@@ -59,21 +64,25 @@
             text-decoration: none;
             text-transform: uppercase;
         }
-        label
-        {
-          color: #777;
-          padding: 0 25px;
-          font-size: 12px;
-          font-weight: 600;
-          letter-spacing: .1rem;
-          text-decoration: none;
-
-
-        }
 
         .m-b-md {
             margin-bottom: 30px;
         }
+    </style>
+    <?php
+      if (session('ThemeSelected') == 0) {
+        echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
+      }
+      else if (session('ThemeSelected') == 1) {
+        echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Dark Theme'>";
+      }
+      else if (session('ThemeSelected') == 2){
+        echo "<link rel='stylesheet' href='css/theme/light-theme.css' media='screen' title='Light Theme'>";
+      }
+      else {
+        echo "<link rel='stylesheet' href='css/theme/dark-theme.css' media='screen' title='Default Theme'>";
+      }
+    ?>
     </style>
     <!-- Scripts -->
     <script>

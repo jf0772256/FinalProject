@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #2b3e50;
+
                 color: #ebebeb;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -26,9 +26,9 @@
             }
 
             .flex-center {
-                align-items: center;
+
                 display: flex;
-                justify-content: center;
+              /justify-content: center;
             }
 
             .position-ref {
@@ -86,12 +86,12 @@
     <body>
       <div class="content">
         <div class="jumbotron">
-          <div class="title ">
-              Bob's Used Cars
+          <div class="title">
+              Bob's Used
           </div>
-          <h3 class="title">
+          <div class="title">
             Trucks
-          </h3>
+          </div>
         </div>
       </div>
 
@@ -99,42 +99,42 @@
       <div class="content">
           @include('partial.nav')
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1942dodgemilitary1-4ton.jpg" alt="1942 Dodge Military 4 Ton">
                       <div class="caption">
                         <h3>1942 Dodge Military - 4 Ton</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1959bluechevyputruck.jpg" alt="1959 Chevy Truck">
                       <div class="caption">
                         <h3>1959 Chevy Truck</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1995fordranger.jpg" alt="1995 Ford Ranger">
                       <div class="caption">
                         <h3>1995 Ford Ranger</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
@@ -142,67 +142,62 @@
                   </div>
                 </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/1999fordf250diesel.jpg" alt="1999 Ford F250">
                       <div class="caption">
                         <h3>1999 Ford F250</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2003toyotatundra.jpg" alt="2003 Toyota Tundra">
                       <div class="caption">
                         <h3>2003 Toyota Tundra</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/2012ford350diesel.jpg" alt="2012 Ford F350">
                       <div class="caption">
                         <h3>2012 Ford F350</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="/images/Trucks/whitepickupwlumberrack.jpg" alt="white pickup with lumber rack">
                       <div class="caption">
                         <h3>White Pickup with Lumber Rack</h3>
                         <p>This is a placeholder description</p>
                         <p>
-                          <a href="#" class="btn btn-primary" role="buton">Add to cart</a>
+                          <a href="#" class="btn btn-primary" role="button">Add to cart</a>
                           <a href="#" class="btn btn-default" role="button">Test Drive this car</a>
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-<footer class="content">
-                  @include("partial.navbottom")
-</footer>
               </div>
-            </div>
-        </div>
     </body>
 </html>
