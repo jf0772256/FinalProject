@@ -26,6 +26,7 @@ Auth::routes();
 Route::get('/admin', 'AdminController@logincheck')->middleware('auth');
 Route::get('/administration', 'AdminController@Dashboard')->middleware('auth')->name('admin');
 Route::post('/administration/an', 'AdminController@addnew')->middleware('auth')->name('admaddnew');//->with('userslist');
+Route::post('/administration/nm', 'ProductsController@addnew')->middleware('auth')->name('admnewmdl');
 
 Route::get('/employee', 'AdminController@logincheck')->middleware('auth');
 Route::get('/employee/profile', 'EmployeeController@Dashboard')->middleware('auth')->name('employee');
