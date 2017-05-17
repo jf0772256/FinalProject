@@ -3,7 +3,10 @@
 @section('content')
   @php
     use App\Categories;
+    use App\Products;
+    use App\Model_Partial;
     use App\User;
+    use App\Http\Controllers\ProductsController;
   @endphp
 <div class="container">
     <div class="row">
@@ -29,9 +32,24 @@
                     <form class="" action="" method="post">
                       {{ csrf_field() }}
                       @php
-                        Categories::makeSelectorCat('testSelect');
+                        Categories::makeSelectorCat('categories');
+                        Products::getAllMakes('makes');
+                        Model_Partial::getAvailModels('models');
                       @endphp
+                      {{--  --}}
                   </form>
+                  <div class="collapse" id="addmodel">
+                    <div class="well">
+                      <form action="{{ route('admnewmdl') }}" method="post">
+                          {{ csrf_field() }}
+                          <input type="text" name="newModelName" value="">
+                          @php
+                            Products::getAllMakes('nmMake');
+                          @endphp
+                          <input type="submit" name="subBtn1" class="btn btn-primary" value="Create New Model">
+                      </form>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>

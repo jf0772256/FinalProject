@@ -72,31 +72,31 @@ class categories extends Seeder
     {
       DB::table('categories')->insert(
       array(
-          'categoryType' => 'cars',
+          'categoryType' => 'Car',
           'active' => true
         )
       );
       DB::table('categories')->insert(
         array(
-          'categoryType' => 'compacts',
+          'categoryType' => 'Compact',
           'active' => true
         )
       );
       DB::table('categories')->insert(
         array(
-          'categoryType' => 'electric',
+          'categoryType' => 'Electric',
           'active' => true
         )
       );
       DB::table('categories')->insert(
         array(
-          'categoryType' => 'suvs',
+          'categoryType' => 'SUV',
           'active' => true
         )
       );
       DB::table('categories')->insert(
         array(
-          'categoryType' => 'trucks',
+          'categoryType' => 'Truck',
           'active' => true
         )
       );
