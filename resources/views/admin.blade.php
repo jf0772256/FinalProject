@@ -40,6 +40,9 @@
                           <option value=""></option>
                         </select>
                       </label>
+                      <div class="form-group">
+                        <button type="button" name="collapseBtn" class="btn btn-primary" data-target="#addmodel" data-toggle="collapse" aria-expanded="false" aria-controlls="addmodel">Add New Model</button>
+                      </div>
                   </form>
                   <div class="collapse" id="addmodel">
                     <div class="well">
